@@ -56,6 +56,16 @@ define( 'WPLANG', 'fr-FR' );
 ini_set( 'display_errors', 0 );
 define( 'WP_DEBUG_DISPLAY', false );
 
+// ===========================
+// Method to update Wordpress
+// ===========================
+define('FS_METHOD', 'direct');
+
+// ====================================
+// Disable the Plugin and Theme Editor
+// ====================================
+define( 'DISALLOW_FILE_EDIT', true );
+
 // =================================================================
 // Debug mode
 // Debugging? Enable these. Can also enable them in local-config.php
